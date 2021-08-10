@@ -1,0 +1,64 @@
+.carousel,
+.recently-added {
+  position: relative;
+  width: 98%;
+  margin: 0 auto;
+  z-index: 2;
+}
+.recently-added {
+  top: 120px;
+}
+
+/** ---- Book listings ----------- **/
+.book-display {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.book-display div {
+  width: 33%;
+  margin-bottom: 15px;
+}
+
+/** ---- Page section title ----------- **/
+.book-category-title {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 25px;
+  margin-top: 40px;
+  width: 93%;
+}
+/** ---- Carousel main container ----------- **/
+.main-carousel {
+  background: #ffffff;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.15);
+}
+
+/** ---- Responsive mobile devices ----------- **/
+@media screen and (max-width: 569px) {
+  .book-display,
+  .book-display div {
+    width: 100%;
+  }
+}
+
+/* Responsive small devices ------------- */
+@media screen and (min-width: 570px) and (max-width: 814px) {
+  .book-display div {
+    width: 50%;
+  }
+}
+
+/* Responsive large devices ----------- */
+@media screen and (min-width: 814px) and (max-width: 1111px) {
+  .book-display div {
+    width: 33.2%;
+  }
+}

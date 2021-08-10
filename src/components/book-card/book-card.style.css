@@ -1,0 +1,48 @@
+.book-card {
+  display: flex;
+  font-size: 0.8em;
+  align-items: center;
+  width: 100% !important;
+}
+.book-card img {
+  margin-right: 15px;
+}
+.book-card div {
+  width: 100% !important;
+}
+
+.book-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.ratings {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.ratings li {
+  padding: 0px;
+  flex: 1;
+  background: white;
+}
+.ratings li:first-child {
+  border-right: 1px solid #999;
+  padding-right: 20px;
+}
+
+.ratings li:last-child {
+  padding-left: 20px;
+}
+.ratings li p {
+  padding-bottom: 5px;
+}
+
+.checked {
+  color: rgb(253, 179, 43);
+}
+.unchecked {
+  color: rgb(211, 208, 201);
+}
+
+

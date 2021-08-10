@@ -1,0 +1,30 @@
+/** ---- Page size extra large screen ----------- **/
+.page-main {
+  position: relative;
+  width: calc(100% - 300px);
+  padding: 40px;
+  background: #ffffff;
+  box-shadow: -10px 0px 40px rgba(0, 0, 0, 0.1);
+  min-height: 100vh;
+  left: 300px;
+  top: 75px;
+  z-index: 222;
+  transition: 0.5;
+}
+
+/** ---- Page container ----------- **/
+.container {
+  position: absolute;
+  width: 100%;
+  background: #ffffff;
+}
+
+/** ---- Responsive mobile devices ----------- **/
+@media screen and (max-width: 569px) {
+  .page-main {
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 0px;
+  }
+}
